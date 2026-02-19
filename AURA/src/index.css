@@ -1,0 +1,219 @@
+/* Ensure the html and body take up the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure the root container fills the viewport */
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    background-color: blue;
+  }
+
+
+   /* SECTION 1 */
+
+   .navbar {
+    padding: 25px 0;
+  }
+
+  .brand-name {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+   /* SECTION 2 */
+
+   #section-2 {
+    padding: 0 100px;
+  }
+
+   /* carousel */
+   
+   .carousel {
+    margin: 50px 0;
+}
+
+  .carousel-text {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .img {
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+  }
+
+  .carousel-item {
+    padding: 30px 100px;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Section 4 */
+
+  #section-3 {
+    padding: 0 100px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .chm-icon,.mth-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .icon-text {
+    font-size: 50px;
+    align-items: center;
+  }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #EDEDCE;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+
+  .A1 {
+    color: white;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+  }
+
+  h3 {
+    color: white;
+  }
+
+  /* Side Bar */
+
+  .offcanvas {
+    background-color: #2F3E46;
+  }
+
+  .nav-link {
+    color: white;
+  }
+
+  /* SECTION 1 */
+
+  .navbar {
+    padding: 25px 0;
+    background-color: #2F3E46;
+  }
+
+
+  .brand-name {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+   /* SECTION 2 */
+
+  #section-2 {
+    padding: 0 30px;
+  }
+
+
+  /* carousel */
+   
+  .carousel {
+    margin: 50px 0;
+}
+
+  .carousel-text {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .img {
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+  }
+
+  .carousel-item {
+    padding: 30px 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Section 3 */
+
+  #section-3 {
+    padding: 0 30px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .btn {
+    padding: 6px 80px;
+    margin: 10px 0;
+  }
+
+  .lucide {
+    padding: 3px;
+  }
+
+  /* Footer */
+
+  .footer {
+    background-color: #2F3E46;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    margin-top: auto; /* Push the footer to the bottom */
+  }
+
+  .icon {
+    margin: 5px 15px;
+  }
+
+  .footer-text {
+    color: white;
+    padding: 10px 0;
+  }
+
+/* CARD CSS */
+
+.card {
+  margin: 20px 40px;
+}
+
+}
