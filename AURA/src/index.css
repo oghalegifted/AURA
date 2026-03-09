@@ -146,15 +146,15 @@ html, body {
   /* carousel */
    
   .carousel {
-    margin: 100px;
-    padding: px;
+    margin: 0px;
+    padding: 0px;
 }
 
   .carousel-text {
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
   }
 
