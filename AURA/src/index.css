@@ -1,16 +1,4 @@
-/* Ensure the html and body take up the full height of the viewport */
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 
-/* Ensure the root container fills the viewport */
-#root {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Full viewport height */
-}
 
 @media screen and (min-width: 769px) {
   body {
@@ -92,6 +80,7 @@ html, body {
 @media screen and (max-width: 768px) {
   body {
     background-color: #EDEDCE;
+    padding-top: 160px;
   }
 
   a {
@@ -125,6 +114,41 @@ html, body {
   .navbar {
     padding: 25px 0;
     background-color: #2F3E46;
+    position: fixed;
+    top: 0;          /* Align it to the top */
+    left: 0;         /* Align it to the left */
+    width: 100%;     /* Make it span the full width of the page */
+    z-index: 1000; 
+  }
+
+  /* Second Navbar */
+  .navbar-info {
+    position: fixed; /* Keep the second navbar fixed below the first */
+    top: 60px; /* Adjust this value based on the height of the first navbar */
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Ensure it stays below the first navbar */
+    background-color: red; /* Red background for the second navbar */
+    color: white; /* White text for contrast */
+    text-align: center;
+    padding: 30px 0px 3px 0px;
+    font-size: 16px;
+  }
+
+  .contact-link {
+    color: white; /* Highlight the link with a contrasting color */
+    text-decoration: underline;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .info-text {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-size: 20px;
   }
 
 
@@ -147,21 +171,21 @@ html, body {
    
   .carousel {
     margin: 0px;
-    padding: 0px;
+    padding-top: 70px;
 }
 
   .carousel-text {
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
 
   .img {
     border-radius: 100px;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     display: block;
     margin: auto;
   }
@@ -174,7 +198,7 @@ html, body {
 
   /* Section 3 */
 
-  #section-3 {
+   #section-3 {
     padding: 0 30px;
   }
 
@@ -184,13 +208,16 @@ html, body {
   }
 
   .btn {
-    padding: 6px 80px;
+    padding: 15px;
     margin: 10px 0;
+    width: 100%;
+    border-radius: 0.75rem;
+    text-align: left;
   }
 
   .lucide {
     padding: 3px;
-  }
+  } 
 
   /* Footer */
 

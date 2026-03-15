@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <Navbar />
+      <Quote />
       <Course />
-      {/* <Quote /> */}
       <Footer />
     </>
   )
